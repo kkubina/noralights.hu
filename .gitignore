@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.astro/
+.DS_Store
+
+# Superseded local guitar retouch studies
+design/studio-session/DSCF0587-greco*
+design/studio-session/DSCF0592-greco-studio.png
