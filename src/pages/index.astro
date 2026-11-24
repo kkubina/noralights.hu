@@ -86,11 +86,21 @@ const photos = [
         "drums drums drums vocals vocals vocals"
         "bass  bass  bass  vocals vocals vocals"
         "guitar guitar guitar guitar piano piano";
-      grid-template-rows: 1fr 1fr 42vw;
+      grid-template-rows: 1fr 1fr 48vw;
       grid-template-columns: repeat(6, minmax(0, 1fr));
     }
     .vocals img { object-position: 55% 45%; }
-    .piano img { object-position: 32% center; }
+    .piano {
+      grid-column: 4 / -1;
+      z-index: 1;
+      border-inline-start: clamp(3px, .333vw, 7px) solid #191816;
+    }
+    .piano img {
+      width: 125%;
+      height: 125%;
+      inset: -12% auto auto -7%;
+      object-position: 30% center;
+    }
     .caption { display: grid; justify-content: stretch; gap: 1.1rem; padding: 1.25rem 4vw max(1.4rem, env(safe-area-inset-bottom)); }
     h1 { font-size: 14.8vw; }
     .release { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: .45rem 1rem; width: auto; }

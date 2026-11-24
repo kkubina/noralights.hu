@@ -16,7 +16,7 @@ Each homepage study features one frame of each band member. The contact sheet al
 
 ## Technical direction
 
-Astro generates static HTML and CSS. The five WebP crops in `public/images/` come from the owner’s studio material. The guitarist image incorporates the owner’s Greco reference. The desktop layout follows the approved montage. Portrait screens use a two-column composition with a wider tile for the guitarist. CSS handles the entrance and hover animations and respects reduced motion. The page uses system fonts.
+Astro generates static HTML and CSS. The five WebP crops in `public/images/` come from the owner’s studio material. The guitarist image incorporates the owner’s Greco reference. The desktop layout follows the approved montage. Portrait screens use a two-column composition with a closer crop of the pianist overlapping the guitar headstock. CSS handles the entrance and hover animations and respects reduced motion. The page uses system fonts.
 
 ## Local development
 
